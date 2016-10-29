@@ -1,17 +1,17 @@
-name: Beepboop Starterbot
-description: A simple Ruby bot starter for Beep Boop
+name: FireBot
+description: A bot for helping with Firecalls
 avatar: resources/avatar.png
 #background: resources/background.png
-#config:
+config:
 #  - name: OPTION
 #    friendly_name: Some Unnecessary Option
 #    info: This is an unnecessary option
 #    default: the default value
-#  - name: SECRET
-#    friendly_name: Shhhh
-#    info: This is an secret option
-#    type: secret
-#    default: not secret though
+  - name: SECRET
+    friendly_name: Secret option
+    info: This is an secret option
+    type: secret
+    default: 
 #screenshots:
 #  - screenshot: resources/screenshot1.png
 #  - screenshot: resources/screenshot2.jpg
